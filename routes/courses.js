@@ -24,6 +24,9 @@ const { translate } = require('../i18n/i18n')
  *
  * @returns {undefined}
  */
+
+
+ // test
 module.exports.getCourses = async (request, response, next) => {
   // Get all the entries of content type course
   let courses = []
